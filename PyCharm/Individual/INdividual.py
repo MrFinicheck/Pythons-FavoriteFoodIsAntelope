@@ -10,7 +10,7 @@ if __name__ == '__main__':
     if len(A) != 30:
         print("Неверный размер кортежа", file=sys.stderr)
         exit(1)
-
+gi
     auto_slice = tuple(map(lambda x: x[1:-1], auto))
     auto_slice2 = tuple(map(lambda x: x.split(","), auto_slice))
     auto_slice3 = [(float(a[0]), float(a[1])) for a in auto_slice2]
