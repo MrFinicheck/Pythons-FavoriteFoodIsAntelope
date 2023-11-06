@@ -15,4 +15,3 @@ if __name__ == '__main__':
     s = sum(a for a in A if abs(a) < 5)
     print(s)
 
-    git
